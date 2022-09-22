@@ -2,13 +2,13 @@
 This project adopted Machine Learning models to predict a marketplace's user purchasing intention to reduce churn rate and increase conversion.
 
 ### Models Deployed
-Artificial Recurrent Neural Network (RNN): Long-Short Term Memory, Natural Language Processing (NLP), Sentiment Analysis, Time Series (ARIMA)
+Logistics Regression, Ensemble Bagging (Random Forest and XGBoost), Deep Learning (Neural Network), Stacking
 
 ### Techniques Employed
-Data Mining, Exploratory Data Analysis, Feature Engineering, Text Mining, Data Visualization, Machine Learning, Time Series Analysis, Financial Analysis, Parallel Processing
+Exploratory Data Analysis, Resampling Imbalanced Dataset, Feature Engineering, Data Visualization, Machine Learning, Neural Network, Model Stacking
 
 ### Tools Employed
-Pickle, Beautiful Soup, TensorFlow, VADER, TextBlob, Keras, pyplot, statsmodels, Trading View API, Twitter API, various news API
+SMOTE, sklearn, TensorFlow, Keras, seaborn, plotly
 
 ### Context
 Over the past decade, online shopping has grown tremendously. Evidently, 46% of total retail sales worldwide comes from e-commerce. However, conversion rate of online shoppers worldwide have been steadily declining, decreasing by 27% from 2018 to 2020. It is thus critical for a marketplace to improve their conversion and retention rate.
@@ -29,7 +29,7 @@ The final model which was adopted was Random Forest (with SMOTE) which gave the 
 <br>
 
 ### Results & Business Impact
-
+Cost-benefit values were derived from the confusion matrix computed from the final model. As compared to the baseline expected revenue, which was based on average industry performance, the classification model will increase revenue by $17.74 per user. 
 
 ### Collaborators
 Georgius Gary Gunawan <br>
