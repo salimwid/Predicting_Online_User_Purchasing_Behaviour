@@ -29,7 +29,9 @@ The final model which was adopted was Random Forest (with SMOTE) which gave the 
 <br>
 
 ### Results & Business Impact
-Cost-benefit values were derived from the confusion matrix computed from the final model. As compared to the baseline expected revenue, which was based on average industry performance, the classification model will increase revenue by $17.74 per user. 
+Cost-benefit values were derived from the confusion matrix computed from the final model. As compared to the baseline expected revenue, which was based on average industry performance, the classification model will increase revenue by $17.74 per user. <br>
+
+The improvement could be attained from: (a) preventing churn by introducing targeted marketing campaigns and advertisements to high value pages; and (b) from increasing purchasing conversion by improving low value or leaky webpage.
 
 ### Collaborators
 Georgius Gary Gunawan <br>
